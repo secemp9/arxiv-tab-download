@@ -1,2 +1,2 @@
-# arxiv-tab-download
-Download all opened arXiv urls
+# arxiv-tab-downloader
+Download all opened arXiv urls from your tabs and then close them
