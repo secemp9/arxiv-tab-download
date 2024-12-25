@@ -1,0 +1,26 @@
+
+{
+  "manifest_version": 3,
+  "name": "arXiv Tab Downloader",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "downloads",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "host_permissions": [
+    "*://arxiv.org/*"
+  ]
+}
